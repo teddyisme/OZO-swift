@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20388AAB1DF2B412000B45E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20388AAA1DF2B412000B45E3 /* AppDelegate.swift */; };
+		20388AAD1DF2B412000B45E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20388AAC1DF2B412000B45E3 /* ViewController.swift */; };
+		20388AB21DF2B412000B45E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20388AB11DF2B412000B45E3 /* Assets.xcassets */; };
+		20388AC01DF2B412000B45E3 /* OZOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20388ABF1DF2B412000B45E3 /* OZOTests.swift */; };
+		20388ACB1DF2B412000B45E3 /* OZOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20388ACA1DF2B412000B45E3 /* OZOUITests.swift */; };
+		20388AE11DF2BA36000B45E3 /* BikeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20388ADB1DF2BA36000B45E3 /* BikeInfo.swift */; };
+		20388AE21DF2BA36000B45E3 /* LoginInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20388ADC1DF2BA36000B45E3 /* LoginInfo.swift */; };
+		20388AE31DF2BA36000B45E3 /* OZOAddBikeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20388ADD1DF2BA36000B45E3 /* OZOAddBikeInfo.swift */; };
+		20388AE41DF2BA36000B45E3 /* RegisterInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20388ADE1DF2BA36000B45E3 /* RegisterInfo.swift */; };
+		20388AE51DF2BA36000B45E3 /* RegisterNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20388ADF1DF2BA36000B45E3 /* RegisterNum.swift */; };
+		20388AE61DF2BA36000B45E3 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20388AE01DF2BA36000B45E3 /* Result.swift */; };
+		20388AF01DF2BA80000B45E3 /* constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20388AE81DF2BA80000B45E3 /* constant.swift */; };
+		20388AF21DF2BA80000B45E3 /* HttpUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20388AEA1DF2BA80000B45E3 /* HttpUtils.swift */; };
+		20388AF31DF2BA80000B45E3 /* MyColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20388AEB1DF2BA80000B45E3 /* MyColor.swift */; };
+		20388AF41DF2BA80000B45E3 /* MyFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20388AEC1DF2BA80000B45E3 /* MyFont.swift */; };
+		20388AF61DF2BA80000B45E3 /* PersistTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20388AEE1DF2BA80000B45E3 /* PersistTools.swift */; };
+		20388AF71DF2BA80000B45E3 /* UserUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20388AEF1DF2BA80000B45E3 /* UserUtils.swift */; };
+		20388AFB1DF2BA93000B45E3 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20388AF81DF2BA93000B45E3 /* LoginController.swift */; };
+		20388AFD1DF2BA93000B45E3 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20388AFA1DF2BA93000B45E3 /* RegisterController.swift */; };
+		BC2B81AE1DF159B243F3697C /* Pods_OZO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1E46E141F617D645C939258 /* Pods_OZO.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20388ABC1DF2B412000B45E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20388A9F1DF2B411000B45E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20388AA61DF2B411000B45E3;
+			remoteInfo = OZO;
+		};
+		20388AC71DF2B412000B45E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20388A9F1DF2B411000B45E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20388AA61DF2B411000B45E3;
+			remoteInfo = OZO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20388AA71DF2B412000B45E3 /* OZO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OZO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20388AAA1DF2B412000B45E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20388AAC1DF2B412000B45E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20388AB11DF2B412000B45E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20388AB61DF2B412000B45E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20388ABB1DF2B412000B45E3 /* OZOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OZOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20388ABF1DF2B412000B45E3 /* OZOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OZOTests.swift; sourceTree = "<group>"; };
+		20388AC11DF2B412000B45E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20388AC61DF2B412000B45E3 /* OZOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OZOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20388ACA1DF2B412000B45E3 /* OZOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OZOUITests.swift; sourceTree = "<group>"; };
+		20388ACC1DF2B412000B45E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20388ADB1DF2BA36000B45E3 /* BikeInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BikeInfo.swift; sourceTree = "<group>"; };
+		20388ADC1DF2BA36000B45E3 /* LoginInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginInfo.swift; sourceTree = "<group>"; };
+		20388ADD1DF2BA36000B45E3 /* OZOAddBikeInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OZOAddBikeInfo.swift; sourceTree = "<group>"; };
+		20388ADE1DF2BA36000B45E3 /* RegisterInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterInfo.swift; sourceTree = "<group>"; };
+		20388ADF1DF2BA36000B45E3 /* RegisterNum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterNum.swift; sourceTree = "<group>"; };
+		20388AE01DF2BA36000B45E3 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		20388AE81DF2BA80000B45E3 /* constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = constant.swift; sourceTree = "<group>"; };
+		20388AEA1DF2BA80000B45E3 /* HttpUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpUtils.swift; sourceTree = "<group>"; };
+		20388AEB1DF2BA80000B45E3 /* MyColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyColor.swift; sourceTree = "<group>"; };
+		20388AEC1DF2BA80000B45E3 /* MyFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFont.swift; sourceTree = "<group>"; };
+		20388AEE1DF2BA80000B45E3 /* PersistTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistTools.swift; sourceTree = "<group>"; };
+		20388AEF1DF2BA80000B45E3 /* UserUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserUtils.swift; sourceTree = "<group>"; };
+		20388AF81DF2BA93000B45E3 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		20388AFA1DF2BA93000B45E3 /* RegisterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		592643BE70E3B81652A10329 /* Pods-OZO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OZO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OZO/Pods-OZO.debug.xcconfig"; sourceTree = "<group>"; };
+		65FDA517CD700552C2707713 /* Pods-OZO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OZO.release.xcconfig"; path = "Pods/Target Support Files/Pods-OZO/Pods-OZO.release.xcconfig"; sourceTree = "<group>"; };
+		B1E46E141F617D645C939258 /* Pods_OZO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OZO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20388AA41DF2B411000B45E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2B81AE1DF159B243F3697C /* Pods_OZO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20388AB81DF2B412000B45E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20388AC31DF2B412000B45E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20388A9E1DF2B411000B45E3 = {
+			isa = PBXGroup;
+			children = (
+				20388AA91DF2B412000B45E3 /* OZO */,
+				20388ABE1DF2B412000B45E3 /* OZOTests */,
+				20388AC91DF2B412000B45E3 /* OZOUITests */,
+				20388AA81DF2B412000B45E3 /* Products */,
+				CBD4CB51B86308AACD9F231F /* Pods */,
+				39EB32E02412075FB0D70172 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		20388AA81DF2B412000B45E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20388AA71DF2B412000B45E3 /* OZO.app */,
+				20388ABB1DF2B412000B45E3 /* OZOTests.xctest */,
+				20388AC61DF2B412000B45E3 /* OZOUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20388AA91DF2B412000B45E3 /* OZO */ = {
+			isa = PBXGroup;
+			children = (
+				20388AE71DF2BA56000B45E3 /* utils */,
+				20388ADA1DF2B9FF000B45E3 /* modle */,
+				20388AAA1DF2B412000B45E3 /* AppDelegate.swift */,
+				20388AAC1DF2B412000B45E3 /* ViewController.swift */,
+				20388AF81DF2BA93000B45E3 /* LoginController.swift */,
+				20388AFA1DF2BA93000B45E3 /* RegisterController.swift */,
+				20388AB11DF2B412000B45E3 /* Assets.xcassets */,
+				20388AB61DF2B412000B45E3 /* Info.plist */,
+			);
+			path = OZO;
+			sourceTree = "<group>";
+		};
+		20388ABE1DF2B412000B45E3 /* OZOTests */ = {
+			isa = PBXGroup;
+			children = (
+				20388ABF1DF2B412000B45E3 /* OZOTests.swift */,
+				20388AC11DF2B412000B45E3 /* Info.plist */,
+			);
+			path = OZOTests;
+			sourceTree = "<group>";
+		};
+		20388AC91DF2B412000B45E3 /* OZOUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20388ACA1DF2B412000B45E3 /* OZOUITests.swift */,
+				20388ACC1DF2B412000B45E3 /* Info.plist */,
+			);
+			path = OZOUITests;
+			sourceTree = "<group>";
+		};
+		20388ADA1DF2B9FF000B45E3 /* modle */ = {
+			isa = PBXGroup;
+			children = (
+				20388ADB1DF2BA36000B45E3 /* BikeInfo.swift */,
+				20388ADC1DF2BA36000B45E3 /* LoginInfo.swift */,
+				20388ADD1DF2BA36000B45E3 /* OZOAddBikeInfo.swift */,
+				20388ADE1DF2BA36000B45E3 /* RegisterInfo.swift */,
+				20388ADF1DF2BA36000B45E3 /* RegisterNum.swift */,
+				20388AE01DF2BA36000B45E3 /* Result.swift */,
+			);
+			name = modle;
+			sourceTree = "<group>";
+		};
+		20388AE71DF2BA56000B45E3 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				20388AE81DF2BA80000B45E3 /* constant.swift */,
+				20388AEA1DF2BA80000B45E3 /* HttpUtils.swift */,
+				20388AEB1DF2BA80000B45E3 /* MyColor.swift */,
+				20388AEC1DF2BA80000B45E3 /* MyFont.swift */,
+				20388AEE1DF2BA80000B45E3 /* PersistTools.swift */,
+				20388AEF1DF2BA80000B45E3 /* UserUtils.swift */,
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
+		39EB32E02412075FB0D70172 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1E46E141F617D645C939258 /* Pods_OZO.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBD4CB51B86308AACD9F231F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				592643BE70E3B81652A10329 /* Pods-OZO.debug.xcconfig */,
+				65FDA517CD700552C2707713 /* Pods-OZO.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20388AA61DF2B411000B45E3 /* OZO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20388ACF1DF2B412000B45E3 /* Build configuration list for PBXNativeTarget "OZO" */;
+			buildPhases = (
+				5BAF538C3BF60D47D3CFC07A /* [CP] Check Pods Manifest.lock */,
+				20388AA31DF2B411000B45E3 /* Sources */,
+				20388AA41DF2B411000B45E3 /* Frameworks */,
+				20388AA51DF2B411000B45E3 /* Resources */,
+				ADE50737C276F28FAC565350 /* [CP] Embed Pods Frameworks */,
+				1B5308804D116857CC52C500 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OZO;
+			productName = OZO;
+			productReference = 20388AA71DF2B412000B45E3 /* OZO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20388ABA1DF2B412000B45E3 /* OZOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20388AD21DF2B412000B45E3 /* Build configuration list for PBXNativeTarget "OZOTests" */;
+			buildPhases = (
+				20388AB71DF2B412000B45E3 /* Sources */,
+				20388AB81DF2B412000B45E3 /* Frameworks */,
+				20388AB91DF2B412000B45E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20388ABD1DF2B412000B45E3 /* PBXTargetDependency */,
+			);
+			name = OZOTests;
+			productName = OZOTests;
+			productReference = 20388ABB1DF2B412000B45E3 /* OZOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		20388AC51DF2B412000B45E3 /* OZOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20388AD51DF2B412000B45E3 /* Build configuration list for PBXNativeTarget "OZOUITests" */;
+			buildPhases = (
+				20388AC21DF2B412000B45E3 /* Sources */,
+				20388AC31DF2B412000B45E3 /* Frameworks */,
+				20388AC41DF2B412000B45E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20388AC81DF2B412000B45E3 /* PBXTargetDependency */,
+			);
+			name = OZOUITests;
+			productName = OZOUITests;
+			productReference = 20388AC61DF2B412000B45E3 /* OZOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20388A9F1DF2B411000B45E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "栗新生";
+				TargetAttributes = {
+					20388AA61DF2B411000B45E3 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					20388ABA1DF2B412000B45E3 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 20388AA61DF2B411000B45E3;
+					};
+					20388AC51DF2B412000B45E3 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 20388AA61DF2B411000B45E3;
+					};
+				};
+			};
+			buildConfigurationList = 20388AA21DF2B411000B45E3 /* Build configuration list for PBXProject "OZO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20388A9E1DF2B411000B45E3;
+			productRefGroup = 20388AA81DF2B412000B45E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20388AA61DF2B411000B45E3 /* OZO */,
+				20388ABA1DF2B412000B45E3 /* OZOTests */,
+				20388AC51DF2B412000B45E3 /* OZOUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20388AA51DF2B411000B45E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20388AB21DF2B412000B45E3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20388AB91DF2B412000B45E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20388AC41DF2B412000B45E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B5308804D116857CC52C500 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OZO/Pods-OZO-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BAF538C3BF60D47D3CFC07A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ADE50737C276F28FAC565350 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OZO/Pods-OZO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20388AA31DF2B411000B45E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20388AAD1DF2B412000B45E3 /* ViewController.swift in Sources */,
+				20388AF01DF2BA80000B45E3 /* constant.swift in Sources */,
+				20388AE11DF2BA36000B45E3 /* BikeInfo.swift in Sources */,
+				20388AE51DF2BA36000B45E3 /* RegisterNum.swift in Sources */,
+				20388AE41DF2BA36000B45E3 /* RegisterInfo.swift in Sources */,
+				20388AF31DF2BA80000B45E3 /* MyColor.swift in Sources */,
+				20388AF21DF2BA80000B45E3 /* HttpUtils.swift in Sources */,
+				20388AAB1DF2B412000B45E3 /* AppDelegate.swift in Sources */,
+				20388AFD1DF2BA93000B45E3 /* RegisterController.swift in Sources */,
+				20388AF61DF2BA80000B45E3 /* PersistTools.swift in Sources */,
+				20388AF71DF2BA80000B45E3 /* UserUtils.swift in Sources */,
+				20388AFB1DF2BA93000B45E3 /* LoginController.swift in Sources */,
+				20388AF41DF2BA80000B45E3 /* MyFont.swift in Sources */,
+				20388AE21DF2BA36000B45E3 /* LoginInfo.swift in Sources */,
+				20388AE61DF2BA36000B45E3 /* Result.swift in Sources */,
+				20388AE31DF2BA36000B45E3 /* OZOAddBikeInfo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20388AB71DF2B412000B45E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20388AC01DF2B412000B45E3 /* OZOTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20388AC21DF2B412000B45E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20388ACB1DF2B412000B45E3 /* OZOUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20388ABD1DF2B412000B45E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20388AA61DF2B411000B45E3 /* OZO */;
+			targetProxy = 20388ABC1DF2B412000B45E3 /* PBXContainerItemProxy */;
+		};
+		20388AC81DF2B412000B45E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20388AA61DF2B411000B45E3 /* OZO */;
+			targetProxy = 20388AC71DF2B412000B45E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		20388ACD1DF2B412000B45E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20388ACE1DF2B412000B45E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20388AD01DF2B412000B45E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 592643BE70E3B81652A10329 /* Pods-OZO.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = OZO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.OZO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		20388AD11DF2B412000B45E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65FDA517CD700552C2707713 /* Pods-OZO.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = OZO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.OZO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		20388AD31DF2B412000B45E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OZOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.OZOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OZO.app/OZO";
+			};
+			name = Debug;
+		};
+		20388AD41DF2B412000B45E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OZOTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.OZOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OZO.app/OZO";
+			};
+			name = Release;
+		};
+		20388AD61DF2B412000B45E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = OZOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.OZOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = OZO;
+			};
+			name = Debug;
+		};
+		20388AD71DF2B412000B45E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = OZOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.OZOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = OZO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20388AA21DF2B411000B45E3 /* Build configuration list for PBXProject "OZO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20388ACD1DF2B412000B45E3 /* Debug */,
+				20388ACE1DF2B412000B45E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20388ACF1DF2B412000B45E3 /* Build configuration list for PBXNativeTarget "OZO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20388AD01DF2B412000B45E3 /* Debug */,
+				20388AD11DF2B412000B45E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20388AD21DF2B412000B45E3 /* Build configuration list for PBXNativeTarget "OZOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20388AD31DF2B412000B45E3 /* Debug */,
+				20388AD41DF2B412000B45E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20388AD51DF2B412000B45E3 /* Build configuration list for PBXNativeTarget "OZOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20388AD61DF2B412000B45E3 /* Debug */,
+				20388AD71DF2B412000B45E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20388A9F1DF2B411000B45E3 /* Project object */;
+}
