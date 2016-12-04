@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		20388AAB1DF2B412000B45E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20388AAA1DF2B412000B45E3 /* AppDelegate.swift */; };
-		20388AAD1DF2B412000B45E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20388AAC1DF2B412000B45E3 /* ViewController.swift */; };
 		20388AB21DF2B412000B45E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20388AB11DF2B412000B45E3 /* Assets.xcassets */; };
 		20388AC01DF2B412000B45E3 /* OZOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20388ABF1DF2B412000B45E3 /* OZOTests.swift */; };
 		20388ACB1DF2B412000B45E3 /* OZOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20388ACA1DF2B412000B45E3 /* OZOUITests.swift */; };
@@ -27,6 +26,7 @@
 		20388AFB1DF2BA93000B45E3 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20388AF81DF2BA93000B45E3 /* LoginController.swift */; };
 		20388AFD1DF2BA93000B45E3 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20388AFA1DF2BA93000B45E3 /* RegisterController.swift */; };
 		BC2B81AE1DF159B243F3697C /* Pods_OZO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1E46E141F617D645C939258 /* Pods_OZO.framework */; };
+		D803A17F1DF3BA140051C82B /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D803A17E1DF3BA140051C82B /* MainController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +49,6 @@
 /* Begin PBXFileReference section */
 		20388AA71DF2B412000B45E3 /* OZO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OZO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20388AAA1DF2B412000B45E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		20388AAC1DF2B412000B45E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		20388AB11DF2B412000B45E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20388AB61DF2B412000B45E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20388ABB1DF2B412000B45E3 /* OZOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OZOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +74,7 @@
 		592643BE70E3B81652A10329 /* Pods-OZO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OZO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OZO/Pods-OZO.debug.xcconfig"; sourceTree = "<group>"; };
 		65FDA517CD700552C2707713 /* Pods-OZO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OZO.release.xcconfig"; path = "Pods/Target Support Files/Pods-OZO/Pods-OZO.release.xcconfig"; sourceTree = "<group>"; };
 		B1E46E141F617D645C939258 /* Pods_OZO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OZO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D803A17E1DF3BA140051C82B /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,7 +131,7 @@
 				20388AE71DF2BA56000B45E3 /* utils */,
 				20388ADA1DF2B9FF000B45E3 /* modle */,
 				20388AAA1DF2B412000B45E3 /* AppDelegate.swift */,
-				20388AAC1DF2B412000B45E3 /* ViewController.swift */,
+				D803A17E1DF3BA140051C82B /* MainController.swift */,
 				20388AF81DF2BA93000B45E3 /* LoginController.swift */,
 				20388AFA1DF2BA93000B45E3 /* RegisterController.swift */,
 				20388AB11DF2B412000B45E3 /* Assets.xcassets */,
@@ -384,13 +384,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20388AAD1DF2B412000B45E3 /* ViewController.swift in Sources */,
 				20388AF01DF2BA80000B45E3 /* constant.swift in Sources */,
 				20388AE11DF2BA36000B45E3 /* BikeInfo.swift in Sources */,
 				20388AE51DF2BA36000B45E3 /* RegisterNum.swift in Sources */,
 				20388AE41DF2BA36000B45E3 /* RegisterInfo.swift in Sources */,
 				20388AF31DF2BA80000B45E3 /* MyColor.swift in Sources */,
 				20388AF21DF2BA80000B45E3 /* HttpUtils.swift in Sources */,
+				D803A17F1DF3BA140051C82B /* MainController.swift in Sources */,
 				20388AAB1DF2B412000B45E3 /* AppDelegate.swift in Sources */,
 				20388AFD1DF2BA93000B45E3 /* RegisterController.swift in Sources */,
 				20388AF61DF2BA80000B45E3 /* PersistTools.swift in Sources */,

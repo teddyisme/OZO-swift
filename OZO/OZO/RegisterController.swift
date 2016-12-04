@@ -134,7 +134,7 @@ class RegisterController: UIViewController {
         
         if(((pwd.text)?.isEmpty)! || ((username.text)?.isEmpty)!
             || ((moblie.text)?.isEmpty)! || ((registerNum.text)?.isEmpty)!){
-            self.view.makeToast("请填全信息!")
+            self.view.makeToast("请填全信息!", duration: 1, position: ToastPosition.center)
             return
         }
         
@@ -172,16 +172,23 @@ class RegisterController: UIViewController {
                 case .success(let value):
                     if let user = JSONDeserializer<RegisterInfo>.deserializeFrom(json: value) {
                         let userutil = UserUtils();
-                        userutil.setUserId(userid: user.objectId!)
-                        self.navigationController?.pushViewController(MainController() , animated: true)
+                        if  user.objectId != nil
+                        {
+                            userutil.setUserId(userid: user.objectId!)
+                            self.navigationController?.pushViewController(MainController() , animated: true)
+                        }else{
+                            
+                            self.view.makeToast("该手机号已经注册!", duration: 1, position: ToastPosition.center)
+                        }
+                        
                     }else{
-                        self.view.makeToast("该手机号已经注册!")
+                        self.view.makeToast("该手机号已经注册!", duration: 1, position: ToastPosition.center)
                     }
                 case .failure(let error):
                     print("failure\(error)")
                 }
         }
-
+        
     }
     
     //获取邀请码
@@ -194,11 +201,11 @@ class RegisterController: UIViewController {
                     if(self.register_num == (self.registerNum.text) ){
                         self.zhuceNet();
                     }else{
-                        self.view.makeToast("邀请码错误")
+                        self.view.makeToast("邀请码错误", duration: 1, position: ToastPosition.center)
                     }
                     
                 }else{
-                    self.view.makeToast("验证邀请码失败")
+                    self.view.makeToast("验证邀请码失败", duration: 1, position: ToastPosition.center)
                 }
             case .failure(let error):
                 print("failure\(error)")
