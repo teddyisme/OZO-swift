@@ -107,7 +107,7 @@ class LoginController: UIViewController {
         let password = pwd.text;
         print("name\(name)")
         if((name?.isEmpty)! || (password?.isEmpty)!){
-            self.view.makeToast("请填全信息!")
+            self.view.makeToast("请填全信息!", duration: 1, position: ToastPosition.center)
             return
         }
         
@@ -117,10 +117,21 @@ class LoginController: UIViewController {
             case .success(let value):
                 if let user = JSONDeserializer<LoginInfo>.deserializeFrom(json: value) {
                     let userutil = UserUtils();
-                    userutil.setUserId(userid: user.objectId!)
-                    self.navigationController?.pushViewController(MainController() , animated: true)
+                    
+                    if  user.objectId != nil
+                    {
+                        userutil.setUserId(userid: user.objectId!)
+                        self.navigationController?.pushViewController(MainController() , animated: true)
+                    }else{
+                        
+                        self.view.makeToast("用信息不存在", duration: 1, position: ToastPosition.center)
+                    }
+                    
+                    
                 }else{
-                    self.view.makeToast("用户名或密码错误!")
+                    
+                    
+                    self.view.makeToast("用户名或密码错误!", duration: 1, position: ToastPosition.center)
                 }
             case .failure(let error):
                 print("failure\(error)")
@@ -129,4 +140,9 @@ class LoginController: UIViewController {
         
     }
     
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
 }
+
